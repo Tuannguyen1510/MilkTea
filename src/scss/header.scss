@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {}
+
+$text-primary: #BC9A6C;
+@mixin text-heading($fs, $fw, $color) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color
+}
+// @include text-heading(35px, 700, $text-c1-primary);
+// @include button(16px, 600, white, $bg-color-primary , 0px 0px, 1px solid $bg-color-primary, 8px, #00732c, white);
+
+@mixin button($fs, $fw, $color, $bg-color, $padding , $border, $border-radius, $bg-hover, $color-hover) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $color;
+    background: $bg-color;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+
+    &:hover {
+        background: $bg-hover;
+        color: $color-hover;
+    }
+}
+//Header 
+.navbar {
+    background: $text-primary;
+   
+    .container {
+        a{
+            color: white;
+            &.active{
+                color: #000;
+                font-weight: bold;
+            }
+            &.navbar-brand{
+                font-weight: bold;
+            }
+        }
+        .navbar-brand {}
+
+        #collapsibleNavId {
+            margin-left: 300px;
+        }
+
+        #icon {
+            button {
+                margin: 0px 10px;
+
+                i {}
+            }
+        }
+    }
+}
+
+//  carousel 
+.Carousel {
+    background: #000;
+    height: 600px;
+    color: $text-primary;
+   
+
+    .container {
+        .content {
+            .content-left {
+                position: relative;
+                display: flex;
+                align-items:center ;
+                .text {
+                    padding: 0px 50px 0px 0px;
+                 h5{
+                    border: 1px solid $text-primary;
+                    width:50%;
+                    text-align:center;
+                    padding: 10px;
+                    color: white;
+                    margin-bottom: 30px;
+                 }
+                 p{
+                    color: white;
+                    margin-bottom: 50px;
+                 }
+                 button{
+                    margin-right: 20px;
+                    transition: all 0.5s;
+                    &.button-left{
+                        @include button(16px, 600, white, $text-primary , 10px 20px, none, none, white, $text-primary);
+                    }
+                    &.button-right{
+                        @include button(16px, 600, $text-primary, white , 10px 20px, none, none,$text-primary, white );
+
+                    }
+                 }
+                }
+            }
+
+            .content-right {
+
+                // padding: 50px;
+                .img {
+                    padding: 150px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

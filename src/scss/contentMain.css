@@ -1,0 +1,208 @@
+@import url("./_base.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+.aboutUs .container .aboutUs-left .img {
+  padding: 0px 100px 0px 0px;
+}
+.aboutUs .container .aboutUs-left .img img {
+  width: 100%;
+}
+.aboutUs .container .aboutUs-right h3 {
+  color: #BC9A6C;
+  margin-bottom: 30px;
+}
+.aboutUs .container .aboutUs-right .check .content {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.aboutUs .container .aboutUs-right .check .content i {
+  border: 1px solid #BC9A6C;
+  padding: 15px;
+  color: black;
+  background-color: #BC9A6C;
+  margin-right: 20px;
+}
+.aboutUs .container .aboutUs-right .check .content i.active {
+  color: #BC9A6C;
+  background: black;
+}
+.aboutUs .container .aboutUs-right .check .content p {
+  align-items: center;
+  margin-top: 10px;
+}
+.aboutUs .container .aboutUs-right .button {
+  margin-top: 30px;
+}
+.aboutUs .container .aboutUs-right .button button {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #BC9A6C;
+  padding: 10px 20px;
+  border: 1px solid #BC9A6C;
+  border-radius: none;
+}
+.aboutUs .container .aboutUs-right .button button:hover {
+  background: white;
+  color: #BC9A6C;
+}
+
+.Popular .text {
+  margin-bottom: 50px;
+}
+.Popular .text h2 {
+  color: #BC9A6C;
+  font-weight: bold;
+}
+.Popular .container .item {
+  padding-top: 20px;
+}
+.Popular .container .item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Popular .container .item h5 {
+  color: #BC9A6C;
+}
+
+.Choose .container .Choose-left .img img {
+  width: 100%;
+}
+.Choose .container .Choose-right h2 {
+  margin-bottom: 30px;
+  color: #BC9A6C;
+}
+.Choose .container .Choose-right .item {
+  padding-top: 20px;
+}
+.Choose .container .Choose-right img {
+  width: 100%;
+}
+
+.menuMain .text h2 {
+  color: #BC9A6C;
+}
+.menuMain .container .menuMain-left .content {
+  margin-top: 20px;
+  padding: 20px;
+  background: #EDEAE3;
+}
+.menuMain .container .menuMain-left .content a {
+  background: white;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  transition: all 0.5s;
+}
+.menuMain .container .menuMain-left .content a:hover {
+  background: orange;
+}
+.menuMain .container .menuMain-left .content a:hover p {
+  color: white !important;
+}
+.menuMain .container .menuMain-left .content a .menuName {
+  align-items: center;
+}
+.menuMain .container .menuMain-left .content a .menuName p {
+  color: gray;
+  margin-top: 10px;
+  transition: all 0.5s;
+}
+
+.Meet {
+  height: 800px;
+}
+.Meet h2 {
+  color: #BC9A6C;
+}
+
+.Testimonials {
+  height: 450px;
+  padding-top: 0;
+}
+.Testimonials .Tes-left {
+  padding: 0;
+}
+.Blog .text h2 {
+  color: #BC9A6C;
+}
+.Blog .container .card {
+  padding-left: 0;
+  border: 1px solid #BC9A6C;
+}
+.Blog .container .card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.Blog .container .card .btn {
+  text-align: right;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.Blog .container .card .btn button {
+  width: 60%;
+  transition: all 0.5s;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #BC9A6C;
+  padding: 10px 20px;
+  border: 1px solid #BC9A6C;
+  border-radius: none;
+}
+.Blog .container .card .btn button:hover {
+  background: white;
+  color: #BC9A6C;
+}
+.Blog .container .card .btn i {
+  width: 40%;
+  margin-top: 30px;
+  text-align: left;
+  padding: 10px;
+  color: #BC9A6C;
+  animation: fade 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes fade {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+}
+.Blog .container .Page-nav .pagination li.page-item {
+  display: block;
+}
+.Blog .container .Page-nav .pagination li.page-item a {
+  border: 2px solid #BC9A6C !important;
+  color: #BC9A6C;
+  transition: all 0.5s;
+}
+.Blog .container .Page-nav .pagination li.page-item a:hover {
+  background: #BC9A6C;
+  color: #EDEAE3;
+}
+.Blog .container .Page-nav .pagination li.page-item:hover {
+  background: #BC9A6C;
+  color: #EDEAE3;
+}

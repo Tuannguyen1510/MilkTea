@@ -1,0 +1,52 @@
+.ProductMenu-Cart:hover .img .icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+.ProductMenu-Cart .img {
+  position: relative;
+}
+.ProductMenu-Cart .img img {
+  width: 100%;
+  display: block;
+}
+.ProductMenu-Cart .img .icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.ProductMenu-Cart .img .icon i {
+  margin-top: 10px;
+  color: white;
+  padding: 10px;
+  background: orange;
+}
+.ProductMenu-Cart .img .icon i:hover {
+  color: orange;
+  background: white;
+}
+.ProductMenu-Cart .card-body h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ProductMenu-Cart .card-body p {
+  color: orange;
+}
+.ProductMenu-Cart .card-body .evaluate i {
+  color: orange;
+}
+
+.SwiperTes {
+  text-align: center;
+  height: 450px;
+  color: white;
+  background: #BC9A6C;
+}
+.SwiperTes .SwiperTes-content {
+  padding: 20px 10px;
+}

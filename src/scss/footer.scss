@@ -1,0 +1,94 @@
+// Footer
+ul {
+    list-style: none;
+}
+.Footer{
+    background: #000;
+    background-repeat: no-repeat;
+    .container{
+        .footer-top{
+           background: #BC9A6C;
+           border-radius: 10px;
+           h1{
+            color: white;
+           }
+           input{
+            height:50px;
+            margin-top: 30px;
+            border: 1px solid #BC9A6C;
+            &:focus{
+                outline: white;
+            }
+            &[type="text"]{
+              border-top-left-radius: 5px;
+              border-bottom-left-radius: 5px;
+            }
+            &[type="submit"]{
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                // background:;\
+                &:hover{
+                    background: #BC9A6C;
+                    color: white;
+                    border: 1px solid white;
+                }
+              }
+           }
+           .footer-social{
+            margin-top: 30px;
+            text-align: right;
+            // margin-right: 30px;
+            i{
+                margin-right: 10px;
+                // padding: 10px;
+                font-size: 20px;
+                background: white;
+                height:50px ;
+                width:50px;
+                line-height: 50px;
+                text-align: center;
+                &:hover{
+                    background: #BC9A6C;
+                    color: white;
+                    border: 1px solid white;
+                }
+            }
+           }
+        }
+        .footer-main {
+          padding-top: 70px;
+           color: white;
+           h1{
+            color: #BC9A6C;
+            font-size: 30px;
+           }
+           .footer-list {
+            padding: 60px 0px;
+             .footer-item{
+                h5{
+                    color: #BC9A6C;
+                }
+                ul{
+                    li{
+                        display: block;
+                        margin-top: 10px;
+                       a{
+                        i{
+                            margin-right: 5px;
+                        }
+                       }
+                    }
+                }
+                .footer-contact {
+                    // margin-top: 5px;
+                }
+             }
+           }
+        }
+    }
+    .footer-late{
+        background: #BC9A6C;
+        padding: 20px 0px;
+        color: white;
+    }
+}
