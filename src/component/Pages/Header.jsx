@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { NavLink, Outlet } from 'react-router-dom'
 export default class Header extends Component {
     render() {
         return (
@@ -14,10 +14,10 @@ export default class Header extends Component {
                         <div className="collapse navbar-collapse" id="collapsibleNavId">
                             <ul className="navbar-nav me-auto mt-2 mt-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link active" href="#" aria-current="page">Home <span className="visually-hidden">(current)</span></a>
+                                    <NavLink className="nav-link active"  to="/home" aria-current="page">Home <span className="visually-hidden">(current)</span></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Menu</a>
+                                    <NavLink className="nav-link" to="/menu" >Menu</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Blog</a>
@@ -69,8 +69,9 @@ export default class Header extends Component {
                         </div>
                     </div>
                 </div>
-
-
+                <div className="div">
+                   <Outlet/>
+                </div>
             </div>
         )
     }

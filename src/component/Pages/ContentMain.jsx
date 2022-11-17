@@ -170,7 +170,7 @@ export default class ContentMain extends Component {
                             please refer to some sample menus of tea and milk tea shops that we have compiled below.</p>
                     </div>
                     <div className="container">
-                        <LinkMenu />
+                        {/* <LinkMenu /> */}
                     </div>
                 </section>
                 {/* Meet */}

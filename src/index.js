@@ -4,14 +4,17 @@ import Main from './component/Layout/Main';
 import Swiper from './component/Library/Swiper';
 import Layout from './Test/Layout';
 import HomeTempe from './templates/HomeTempe';
+import HomeLink from './component/Pages/Link/HomeLink';
 import './scss/MainLayout.scss'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
      <>
-       <Main/>
+       {/* <Main/> */}
        {/* <Swiper/> */}
      {/* <Layout/>   */}
        {/* <HomeTempe/> */}
+       <HomeLink/>
+
      </>
 
 )

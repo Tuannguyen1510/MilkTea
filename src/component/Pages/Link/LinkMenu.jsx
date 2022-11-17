@@ -13,11 +13,11 @@ export default class LinkMenu extends Component {
         <Routes>
              <Route path="" element={<MenuMain/>}>
                    <Route index element={<MenuBub/>}></Route>
-                   <Route path="bub" element={<MenuBub/>}></Route>
-                   <Route path="matcha" element={<MenuMatcha/>}></Route>
-                   <Route path="red" element={<MenuRed/>}></Route>
-                   <Route path="mango" element={<MenuMango/>}></Route>
-                   <Route path="peach" element={<MenuPeach/>}></Route>
+                   <Route path="home/bub" element={<MenuBub/>}></Route>
+                   <Route path="home/matcha" element={<MenuMatcha/>}></Route>
+                   <Route path="home/red" element={<MenuRed/>}></Route>
+                   <Route path="home/mango" element={<MenuMango/>}></Route>
+                   <Route path="home/peach" element={<MenuPeach/>}></Route>
              </Route>
         </Routes>
     </BrowserRouter>
