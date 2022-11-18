@@ -37,7 +37,7 @@ export default class Header extends Component {
                             </ul>
                             <form className="d-flex my-2 my-lg-0" id="icon">
                                 <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
-                                <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-user"></i></button>
+                                <NavLink to="/login"> <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-user"></i></button></NavLink>
                                 <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-shopping-cart"></i></button>
                             </form>
                         </div>

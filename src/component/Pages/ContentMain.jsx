@@ -2,23 +2,26 @@ import React, { Component } from 'react'
 import Swiper from '../Library/Swiper'
 import LinkMenu from './Link/LinkMenu'
 import SwiperTes from '../Library/SwiperTes'
-
+import MenuMain from './Link/MenuMain'
 
 export default class ContentMain extends Component {
     render() {
         return (
             <div>
+                {/* <div class="about-left wow animate__ animate__fadeInLeft animated" data-wow-duration="2s"  data-wow-delay="0.2s" style="visibility: hidden; animation-duration: 2s; animation-delay: 0.2s; animation-name: fadeInLeft; animation-fill-mode: both"> */}
+
                 {/* About  */}
                 <section className="aboutUs" style={{
                     backgroundImage: "url(./img/bg4.png)"
                 }}>
                     <div className="container">
                         <div className="row">
-                            <div className="aboutUs-left col-6">
+                            <div className="aboutUs-left col-6" >
                                 <div className="img">
                                     <img src="./img/about.png" alt="" />
                                 </div>
                             </div>
+                            {/*  */}
                             <div className="aboutUs-right col-6">
                                 <h5>About Us</h5>
                                 <h3>Why choose our milk-tea</h3>
@@ -43,10 +46,11 @@ export default class ContentMain extends Component {
                         </div>
                     </div>
                 </section>
-                {/*  Popular*/}
-                <section className="Popular" style={{
-                    backgroundImage: "url(./img/bg2.png)"
-                }}>
+            {/*  Popular*/ }
+            <section section className = "Popular" style = {{
+            backgroundImage: "url(./img/bg2.png)"
+        }
+    }>
                     <div className="text text-center">
                         <h2>Popular coffee categories</h2>
                         <p>Milk tea often has many different flavors, depending on the ingredients and preparation method of each type.</p>
@@ -113,101 +117,101 @@ export default class ContentMain extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
-                {/* Choose */}
-                <section className="Choose" style={{
-                    backgroundImage: "url(./img/bg16.png)"
-                }}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-6 Choose-left">
-                                <div className="img">
-                                    <img src="./img/combo-png.png" alt="" />
-                                </div>
-                            </div>
-                            <div className="col-6 Choose-right">
-                                <h5>Why Choose us</h5>
-                                <h2>Best quality food and milk-teatea maker</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, incidunt voluptatem. A in inventore eaque, eius culpa sunt quis sit sapiente quisquam velit, fugit explicabo, facilis impedit eos? Adipisci, dignissimos!</p>
-                                <div className="row list">
-                                    <div className="col-3 item">
-                                        <img src="./img/a1.png" alt="" />
-                                    </div>
-                                    <div className="col-9 item">
-                                        <h5>High quality</h5>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur atque, facilis dolorem delectus nobis cumque reprehenderit, error ipsam ullam adipisci necessitatibus minima deleniti repudiandae voluptate quaerat et? Beatae, maxime.</p>
-                                    </div>
-                                    {/*  */}
-                                    <div className="col-3 item">
-                                        <img src="./img/a2.png" alt="" />
-                                    </div>
-                                    <div className="col-9 item">
-                                        <h5>High quality</h5>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur atque, facilis dolorem delectus nobis cumque reprehenderit, error ipsam ullam adipisci necessitatibus minima deleniti repudiandae voluptate quaerat et? Beatae, maxime.</p>
-                                    </div>
-                                    {/*  */}
-                                    <div className="col-3 item">
-                                        <img src="./img/a3.png" alt="" />
-                                    </div>
-                                    <div className="col-9 item">
-                                        <h5>High quality</h5>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur atque, facilis dolorem delectus nobis cumque reprehenderit, error ipsam ullam adipisci necessitatibus minima deleniti repudiandae voluptate quaerat et? Beatae, maxime.</p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
+                </section >
+    {/* Choose */ }
+    < section className = "Choose" style = {{
+    backgroundImage: "url(./img/bg16.png)"
+}}>
+    <div className="container">
+        <div className="row">
+            <div className="col-6 Choose-left">
+                <div className="img">
+                    <img src="./img/combo-png.png" alt="" />
+                </div>
+            </div>
+            <div className="col-6 Choose-right">
+                <h5>Why Choose us</h5>
+                <h2>Best quality food and milk-teatea maker</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, incidunt voluptatem. A in inventore eaque, eius culpa sunt quis sit sapiente quisquam velit, fugit explicabo, facilis impedit eos? Adipisci, dignissimos!</p>
+                <div className="row list">
+                    <div className="col-3 item">
+                        <img src="./img/a1.png" alt="" />
                     </div>
-                </section>
-                {/* Menu Main */}
-                <section className="menuMain" style={{
-                    backgroundImage: "url(./img/bg17.png)"
-                }}>
+                    <div className="col-9 item">
+                        <h5>High quality</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur atque, facilis dolorem delectus nobis cumque reprehenderit, error ipsam ullam adipisci necessitatibus minima deleniti repudiandae voluptate quaerat et? Beatae, maxime.</p>
+                    </div>
+                    {/*  */}
+                    <div className="col-3 item">
+                        <img src="./img/a2.png" alt="" />
+                    </div>
+                    <div className="col-9 item">
+                        <h5>High quality</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur atque, facilis dolorem delectus nobis cumque reprehenderit, error ipsam ullam adipisci necessitatibus minima deleniti repudiandae voluptate quaerat et? Beatae, maxime.</p>
+                    </div>
+                    {/*  */}
+                    <div className="col-3 item">
+                        <img src="./img/a3.png" alt="" />
+                    </div>
+                    <div className="col-9 item">
+                        <h5>High quality</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consequuntur atque, facilis dolorem delectus nobis cumque reprehenderit, error ipsam ullam adipisci necessitatibus minima deleniti repudiandae voluptate quaerat et? Beatae, maxime.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+                </section >
+    {/* Menu Main */ }
+    < section className = "menuMain" style = {{
+    backgroundImage: "url(./img/bg17.png)"
+}}>
                     <div className="text text-center">
                         <h2>Our Favorites Menu</h2>
                         <p className='mb-4'>If you are looking for a menu design full of information but equally beautiful <br /> and unique,
                             please refer to some sample menus of tea and milk tea shops that we have compiled below.</p>
                     </div>
                     <div className="container">
-                        {/* <LinkMenu /> */}
+                         <MenuMain/>
                     </div>
-                </section>
-                {/* Meet */}
-                <section className="Meet" style={{
-                    backgroundImage: "url(./img/bg2.png)"
-                }}>
-                    <div className="text text-center">
-                        <h2>Meet our Barista</h2>
-                        <p className='mb-4'>Milk tea is made by exquisite barista for the preparation of fresh and delicious drinks</p>
-                    </div>
-                    {/*  */}
-                    <div className="container">
-                        <Swiper />
-                    </div>
-                </section>
-                {/* Testimonials */}
-                <section className="Testimonials" style={{
-                    backgroundImage: "url(./img/bg4.png)"
-                }}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="Tes-left col-6">
-                                <SwiperTes />
-                            </div>
-                            <div className="Tes-right col-6" style={{
-                                backgroundImage: "url(./img/tes1.jpg)",
-                                backgroundSize: 'contain'
-                            }}>
-                                {/* <img src="./img/tes1.jpg" alt="" /> */}
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/* Blog */}
-                <section className="Blog" style={{
-                    backgroundImage: "url(./img/bg2.png)"
-                }}>
+                </section >
+    {/* Meet */ }
+    < section className = "Meet" style = {{
+    backgroundImage: "url(./img/bg2.png)"
+}}>
+    <div className="text text-center">
+        <h2>Meet our Barista</h2>
+        <p className='mb-4'>Milk tea is made by exquisite barista for the preparation of fresh and delicious drinks</p>
+    </div>
+{/*  */ }
+<div className="container">
+    <Swiper />
+</div>
+                </section >
+    {/* Testimonials */ }
+    < section className = "Testimonials" style = {{
+    backgroundImage: "url(./img/bg4.png)"
+}}>
+    <div className="container">
+        <div className="row">
+            <div className="Tes-left col-6">
+                <SwiperTes />
+            </div>
+            <div className="Tes-right col-6" style={{
+                backgroundImage: "url(./img/tes1.jpg)",
+                backgroundSize: 'contain'
+            }}>
+                {/* <img src="./img/tes1.jpg" alt="" /> */}
+            </div>
+        </div>
+    </div>
+                </section >
+    {/* Blog */ }
+    < section className = "Blog" style = {{
+    backgroundImage: "url(./img/bg2.png)"
+}}>
                     <div className="text text-center">
                         <h2>Latest News & Blog</h2>
                         <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -298,16 +302,16 @@ export default class ContentMain extends Component {
                         </nav>
                         {/* </div> */}
                     </div>
-                </section>
-                {/* Partners & Clients */}
-                {/* <section className="Clients">
+                </section >
+    {/* Partners & Clients */ }
+{/* <section className="Clients">
                     <div className="container">
                         <div className="row">
                             .col-
                         </div>
                     </div>
                 </section> */}
-            </div>
+            </div >
         )
     }
 }

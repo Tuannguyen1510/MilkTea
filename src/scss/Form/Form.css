@@ -1,0 +1,136 @@
+a {
+  text-decoration: none !important;
+}
+
+.login {
+  width: 100%;
+  height: 800px;
+}
+.login span {
+  color: #723D92;
+}
+.login .login-left {
+  height: 100%;
+  padding: 0;
+}
+.login .login-left .content {
+  padding: 100px 250px 100px 100px;
+  margin: auto;
+}
+.login .login-left .content input, .login .login-left .content button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: 1px solid #723D92;
+}
+.login .login-left .content button {
+  background: #723D92;
+  color: white;
+  transition: all 1s;
+}
+.login .login-left .content button:hover {
+  background: rgba(114, 61, 146, 0.17);
+  color: black;
+}
+.login .login-left .content .width .width-left, .login .login-left .content .width .width-right {
+  height: 1px;
+  background: #723D92;
+  margin-top: 12px;
+}
+.login .login-left .content i {
+  font-size: 20px;
+  color: #723D92;
+  padding: 10px 20px;
+  border: 1px solid #723D92;
+  transition: all 1s;
+}
+.login .login-left .content i:hover {
+  background: #723D92;
+  color: white;
+}
+.login .login-left .LinkHome i {
+  border: none;
+  margin-top: 20px;
+  padding: 0;
+}
+.login .login-left .LinkHome a {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.login .login-right {
+  height: 100%;
+  background: rgba(114, 61, 146, 0.17);
+  padding: 0;
+}
+.login .login-right .bg-form {
+  height: 200px;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.login .login-right img {
+  width: 100%;
+}
+
+.SignUp {
+  width: 100%;
+  height: 750px;
+}
+.SignUp span {
+  color: #723D92;
+}
+.SignUp .login-left {
+  height: 100%;
+  padding: 0;
+}
+.SignUp .login-left .content {
+  padding: 100px 250px 0px 100px;
+  margin: auto;
+}
+.SignUp .login-left .content input, .SignUp .login-left .content button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: 1px solid #723D92;
+}
+.SignUp .login-left .content button {
+  background: #723D92;
+  color: white;
+  transition: all 1s;
+}
+.SignUp .login-left .content button:hover {
+  background: rgba(114, 61, 146, 0.17);
+  color: black;
+}
+.SignUp .login-left .content .width .width-left, .SignUp .login-left .content .width .width-right {
+  height: 1px;
+  background: #723D92;
+  margin-top: 12px;
+}
+.SignUp .login-left .content i {
+  font-size: 20px;
+  color: #723D92;
+  padding: 10px 20px;
+  border: 1px solid #723D92;
+  transition: all 1s;
+}
+.SignUp .login-left .content i:hover {
+  background: #723D92;
+  color: white;
+}
+.SignUp .login-right {
+  height: 100%;
+  background: rgba(114, 61, 146, 0.17);
+  padding: 0;
+}
+.SignUp .login-right .bg-form {
+  height: 200px;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.SignUp .login-right img {
+  width: 100%;
+}
