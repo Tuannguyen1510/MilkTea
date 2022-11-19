@@ -10,8 +10,11 @@ export default class ProductCart extends Component {
         // document.querySelector('.evaluate').innerHTML = htmlContent;
         return result;
     }
+    // "/img/a1.png"
     render() {
         const { product } = this.props
+        console.log(product.img);
+
         return (
             <div>
                 <div className="card ProductMenu-Cart">

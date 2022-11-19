@@ -32,6 +32,9 @@ $text-primary: #BC9A6C;
 //Header 
 .navbar {
     background: $text-primary;
+    position: fixed;
+    width:100%;
+    z-index: 999;
    
     .container {
         a{
