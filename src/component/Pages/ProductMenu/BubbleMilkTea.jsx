@@ -23,9 +23,14 @@ export default class BubbleMilkTea extends Component {
     }
     render() {
         return (
+            <>
             <div className='row'>
                 {this.renderMilkTea()}
             </div>
+
+
+              
+            </>
         )
     }
 }

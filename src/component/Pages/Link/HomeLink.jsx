@@ -28,7 +28,14 @@ export default class HomeLink extends Component {
               <Route path="peach" element={<MenuPeach />}></Route>
             </Route>
             {/*  */}
-            <Route path="menu" element={<Menu />}></Route>
+            <Route path="menu" element={<Menu />}>
+               <Route path="" element={<MenuMatcha />}></Route>
+              <Route path="matchamenu" element={<MenuMatcha />}></Route>
+              <Route path="bubmenu" element={<MenuBub />}></Route>
+              <Route path="redmenu" element={<MenuRed />}></Route>
+              <Route path="mangomenu" element={<MenuMango />}></Route>
+              <Route path="peachmenu" element={<MenuPeach />}></Route>
+            </Route>
           
             {/*  */}
           </Route>
